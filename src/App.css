@@ -1,3 +1,21 @@
+.opacS {
+  opacity: 0;
+}
+.opacE {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+.start {
+ 
+  transform : scale(0)
+  
+}
+.end {
+  transform: scale(1);
+  transition: all 0.5s; 
+  /* transition : opacity가 변경될 때 0.5초에 걸쳐서 변경되도록 */
+}
+
 .main-bg {
   height: 300px;
   /* css에서 이미지 넣는법 아래와 같음 */
